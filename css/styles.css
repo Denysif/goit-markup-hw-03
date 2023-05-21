@@ -239,6 +239,9 @@ color: #434455
 .benefits {
     display: flex;
     gap: 24px;
+    
+}
+.benefits-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
