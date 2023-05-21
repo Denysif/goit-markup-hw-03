@@ -110,8 +110,7 @@ img {
  .site-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     gap: 40px;
 
     font-style: normal;
