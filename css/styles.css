@@ -446,7 +446,7 @@ color: #434455
 }
 
 .footer-item {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 
