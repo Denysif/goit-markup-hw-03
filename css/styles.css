@@ -151,13 +151,14 @@ img {
    
 }
 
-.address-list .item:last-child {
+/* .address-list .item:last-child {
     margin-left: 40px;
-}
+} */
 .address-list {
     display: flex;
     align-items: center;
     margin-left: auto;
+    gap: 40px;
    
 
 font-style: normal;
@@ -292,7 +293,7 @@ color: #434455
     color: var(--title-text-color);
 }
 .work-pic {
-    
+
 }
 /* Team */
 
