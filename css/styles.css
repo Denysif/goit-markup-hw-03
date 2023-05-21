@@ -120,10 +120,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 } 
-.nav-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 /* .site-nav .item {
     gap: 40px;
@@ -133,6 +130,8 @@ img {
     margin-right: 0;
 } */
 .nav-list {
+    padding: 24px 0;
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
