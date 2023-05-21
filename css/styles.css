@@ -121,7 +121,8 @@ img {
     color: var(--title-text-color);
 } 
 .nav-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* .site-nav .item {
