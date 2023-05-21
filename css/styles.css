@@ -110,7 +110,7 @@ img {
  .site-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     gap: 40px;
 
     font-style: normal;
@@ -120,6 +120,9 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 } 
+.nav-item {
+    padding: 24px 0;
+}
 
 /* .site-nav .item {
     gap: 40px;
