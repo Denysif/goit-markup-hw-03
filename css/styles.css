@@ -42,6 +42,9 @@ ul, ol {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+}
 
 .container {
     width: 1158px;
@@ -54,6 +57,7 @@ ul, ol {
 
 .page-header {
     padding-top: 25px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -64,6 +68,7 @@ ul, ol {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .logo-link {
@@ -81,6 +86,7 @@ ul, ol {
     text-decoration: none;
 }
 .logo-link-color {
+    margin-right: 76px;
     
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -101,7 +107,10 @@ ul, ol {
  .site-nav {
     display: flex;
     align-items: center;
-    margin-left: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -110,13 +119,13 @@ ul, ol {
     color: var(--title-text-color);
 } 
 
-.site-nav .item {
-    margin-right: 40px;
-}
+/* .site-nav .item {
+    gap: 40px;
+} */
 
-.site-nav .item:last-child {
+/* .site-nav .item:last-child {
     margin-right: 0;
-}
+} */
 .nav-list {
     font-style: normal;
     font-weight: 500;
@@ -176,24 +185,31 @@ color: #434455
 .hero {
     background-color: var(--secondary-background-color);
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 .hero-title {
     
-
+    max-width: 496px;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 48px;
-    padding-top: 188px;
+    /* padding-top: 188px; */
     
     
 }   
 .hero-button {
-    display: inline-block;
+    display: block;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
     
 
     font-family: 'Roboto', sans-serif;
@@ -204,7 +220,7 @@ color: #434455
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
-    margin-bottom: 188px;
+    /* margin-bottom: 188px; */
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -229,6 +245,8 @@ color: #434455
 }
 
 .features-list {
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -247,6 +265,7 @@ color: #434455
 
 .work-item {
     display: flex;
+    gap: 24px;
 }
 
 .work {
